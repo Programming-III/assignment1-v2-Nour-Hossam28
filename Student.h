@@ -4,7 +4,20 @@
 #include "Person.h"
 #include <string>
 #using namespace std;
-//#write student class here
+
+class Student: public Person{
+private:
+int yearLevel;
+string major;
+public: 
+void display(){
+  display();
+  cout<< "Student's year level: "<< yearLevel<< endl;
+  cout<< "Student's Major: "<< major<< endl;
+}
+
+};
+
 
 
 

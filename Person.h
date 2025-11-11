@@ -3,18 +3,20 @@
 
 #include <string>
 using namespace std;
-class Person
-private:
+
+class Person{
+protected:
 string name;
 int id;
 public:
-void display(){
-  cout<< "Person's name: "<< name<<endl;
-cout<< "Person's id: " << id<< endl;
+Person(string name, int id);
+Person();
+~Person();
+void display();
 }
 
 
-
+};
 
 
 

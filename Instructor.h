@@ -7,7 +7,7 @@ private:
 string department;
 int experienceYears;
 public:
-Instructor(stirng department, int experienceYears);
+Instructor(string department, int experienceYears);
 Instructor();
 ~Instructor();
 void display();

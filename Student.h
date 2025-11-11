@@ -10,11 +10,10 @@ private:
 int yearLevel;
 string major;
 public: 
-void display(){
-  display();
-  cout<< "Student's year level: "<< yearLevel<< endl;
-  cout<< "Student's Major: "<< major<< endl;
-}
+Student(int yearLevel, string major);
+Student();
+~Student();
+void display();
 
 };
 
